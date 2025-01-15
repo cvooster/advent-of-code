@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+advent_of_code.egg-info/
+build/
+dist/
+sdist/
+
+# Environments
+.venv/
+venv/

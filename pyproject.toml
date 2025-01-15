@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advent-of-code"
+version = "0.0.0"
+requires-python = "==3.13"
+authors = [{name = "cvooster"}]
+description = "Solutions to Advent of Code puzzles."
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.optional-dependencies]
+dev = [
+  "black==24.10.0",
+  "flake8==7.1.1",
+  "pre-commit==4.0.1",
+]
